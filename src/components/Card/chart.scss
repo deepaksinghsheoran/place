@@ -1,0 +1,34 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1%;
+  }
+  
+  .card {
+    flex: 1 0 calc(33.33% - 10px);
+    margin-left: 10px;
+  }
+
+  .cardd{
+    margin-left: 10px;
+  }
+
+
+
+.legend-box {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.in-cash {
+  background-color: lightgreen;
+}
+
+.out-cash {
+  background-color: darkgreen;
+}
+
+.legend-label {
+  font-size: 12px;
+}

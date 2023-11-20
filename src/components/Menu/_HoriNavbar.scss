@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+$backgroundColor: rgb(133, 128, 128);
+$textcolor:#000000;
+$borderLeftColor:#58b5fc;
+
+.hori-navbar {
+  background-color: $backgroundColor;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+
+}
+
+  .notification,
+  .user-icon {
+    cursor: pointer;
+    margin-left: 20px;
+    position: relative;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+    
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+  }
+
